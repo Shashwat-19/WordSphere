@@ -1,0 +1,19 @@
+{
+    "extends": ["web-recommended"],
+    "hints": {
+      "html-checker": "error",
+      "accessibility": "warning",
+      "performance": "warning",
+      "security": "error",
+      "no-http-redirect": "warning",
+      "no-vulnerable-javascript-libraries": "error",
+      "no-inline-styles": "warning",
+      "meta-viewport": "error"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+  
